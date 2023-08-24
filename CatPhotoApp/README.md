@@ -27,6 +27,8 @@ In this screen shot i have used
 5. paragarph p is written under image . 
 
 
+![Screen Shot 2023-08-25 at 12 38 45 AM](https://github.com/santosh337/HTML/assets/19283972/3c3650dd-0d6d-416a-9ccd-ec9ef206e5a3)
+used table border collapse to show the one line without inner cell separation .
 
 
 
