@@ -7,21 +7,21 @@ In this screen shot
 4. Used <a> anchor tag with href to add the Github profile of mine. After clicking button it navigates to profile .
 5. Used <hr horizonal line.
 
-   ![Screen Shot 2023-08-24 at 7 13 37 PM](https://github.com/santosh337/HTML/assets/19283972/39483f55-d7c0-480d-a747-55784998c9fc)
+![Screen Shot 2023-08-24 at 7 13 37 PM](https://github.com/santosh337/HTML/assets/19283972/39483f55-d7c0-480d-a747-55784998c9fc)
 
 1. In this screen shot
 2. I have used <h2 tag for displaying the content .
 3. I have used <h3 tag as well to display the contet .
 4. Used <P paragraph for displaying lorsem content.
 
-   ![Screen Shot 2023-08-24 at 7 13 49 PM](https://github.com/santosh337/HTML/assets/19283972/35f3471e-7244-4efd-bf9a-5e8a356abcb8)
+![Screen Shot 2023-08-24 at 7 13 49 PM](https://github.com/santosh337/HTML/assets/19283972/35f3471e-7244-4efd-bf9a-5e8a356abcb8)
 
    In this screen shot
    1. I have used <hr for line break and for separater .
    2. I have used <h3 tag as well to display the contet .
    3. Used <P paragraph for displaying lorsem content.
   
-   ![Screen Shot 2023-08-24 at 7 14 12 PM](https://github.com/santosh337/HTML/assets/19283972/b9988e87-3aa5-46f2-a3df-9c41cc1d2fed)
+![Screen Shot 2023-08-24 at 7 14 12 PM](https://github.com/santosh337/HTML/assets/19283972/b9988e87-3aa5-46f2-a3df-9c41cc1d2fed)
 
    In this screen shot
    1. I have used <h2 tag for displaying the content .
@@ -29,7 +29,7 @@ In this screen shot
    3. Inside unordered list there are dotted 5 list .
    4. I have used <hr for line break and for separater .
   
-      ![Screen Shot 2023-08-24 at 7 14 17 PM](https://github.com/santosh337/HTML/assets/19283972/49ba7705-a360-4c6a-93dd-40b7d00c40b6)
+![Screen Shot 2023-08-24 at 7 14 17 PM](https://github.com/santosh337/HTML/assets/19283972/49ba7705-a360-4c6a-93dd-40b7d00c40b6)
 
        In this screen shot
    1. I have used <h2 tag for displaying the content .
