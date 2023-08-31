@@ -13,29 +13,41 @@
     background-position: center;
 }
 
-.navbar {
-    width: 85%;
-    margin: auto;
-    padding: 35px 0;
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
+h1 {
+        margin-top: 200px;
+        padding-bottom: 40px;
+        text-align: center;
+        color: white;
+        font-size: 50px;
 }
 
-.logo {
-    width: 120px;
-    cursor: pointer;
-
+.larger {
+    padding-bottom: 20px;
+        text-align: center;
+        color: white;
+        font-size: 30px;
 }
 
-.navbar ul li {
-    list-style: none;
-    display: inline-block;
-    margin: 0 20px;
+.smaller {
+    padding-bottom: 20px;
+        text-align: center;
+        color: white;
+        font-size: 20px;
 }
 
-.navbar ul li a {
-    text-decoration: none;
-    text-transform: uppercase;
-    color: #fff;
+.image_logo {
+    padding-left: 120px;
+    padding-top: 30px;
+}
+
+button {
+    padding: 10px;
+    float: right;
+    font-size: 14px;
+    margin-top: 30px;
+    margin-left: 10px;
+    border-color: transparent;
+    margin-right: 10px;
+    background-color: red;
+    color: white;
 }
