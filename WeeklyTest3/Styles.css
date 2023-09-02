@@ -1,0 +1,118 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+body {
+    background-color: rgba(230, 230, 230, 1);
+}
+
+.headerbar {
+    text-align: center;
+    height: 30px;
+    top: 0;
+    left: 0;
+    width: 100%;
+    color: white;
+    align-items:center;
+    background: #23074d;  /* fallback for old browsers */
+background: -webkit-linear-gradient(to right, #cc5333, #23074d);  /* Chrome 10-25, Safari 5.1-6 */
+background: linear-gradient(to left, #cc5333, #23074d); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+}
+
+.navbar {
+    display: flex;
+    position:sticky;
+    top: 0;
+    align-items: center;
+    background-color: black;
+    height: 35px;
+}
+
+.navbar a {
+    font-size: 14px;
+    text-decoration: none;
+    font-weight: 400;
+    color: white;
+    margin: 0 20px;
+}
+
+.input-text {
+    width: 350px;
+    margin-right: 10px;
+}
+
+.shoe-box {
+    width: 100%;
+    height: 300px;
+    background-color: red;
+    position:  relative;
+}
+
+.inner-div {
+    background-color: rgba(0,0,0,0.3);;
+    width: 750px;
+    height: 170px;
+    position: absolute;
+    top:50px;
+    left: 100px;
+}
+
+.heading1 {
+    color: white;
+    margin-left: 20px;
+    padding: 10px;
+}
+
+p {
+    color: white;
+    line-height: normal;
+}
+
+.shoes-div {
+    height: 150px;
+    width: 85%;
+    background-color: rgba(160, 160,160, 1);
+    margin: auto;
+    margin-top: 30px;
+}
+
+.trending {
+    color: black;
+    margin-left: 8px;
+    margin-top: 18px;
+}
+
+.shoesimg {
+    position:absolute;
+    left: 600px;
+    border-radius: 150px;
+}
+
+.longerdiv {
+    background: #000000;  /* fallback for old browsers */
+background: -webkit-linear-gradient(to right, #434343, #000000);  /* Chrome 10-25, Safari 5.1-6 */
+background: linear-gradient(to right, #434343, #000000); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    width: 100%;
+    height: 650px;
+    margin-top: 40px;
+    position: relative;
+}
+
+.inside-longer {
+    background: #200122;  /* fallback for old browsers */
+background: -webkit-linear-gradient(to left, #6f0000, #200122);  /* Chrome 10-25, Safari 5.1-6 */
+background: linear-gradient(to left, #6f0000, #200122); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+width: 80%;
+height: 80%;
+position: absolute;
+left: 100px;
+top: 100px;
+}
+
+.calls {
+    margin-top: 40px;
+}
