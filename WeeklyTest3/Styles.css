@@ -80,6 +80,7 @@ p {
     background-color: rgba(160, 160,160, 1);
     margin: auto;
     margin-top: 30px;
+    position: relative;
 }
 
 .trending {
@@ -118,4 +119,17 @@ top: 100px;
 
 .calls {
     margin-top: 40px;
+}
+
+.shoeBar {
+    display: flex;
+    top: 0;
+}
+
+.shoeBar div {
+    background-color: grey;
+    margin: 20px;
+    width: 100px;
+    height: 100px;
+    top: 0;
 }
