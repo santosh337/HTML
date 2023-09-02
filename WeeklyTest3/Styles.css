@@ -47,8 +47,11 @@ background: linear-gradient(to left, #cc5333, #23074d); /* W3C, IE 10+/ Edge, Fi
 .shoe-box {
     width: 100%;
     height: 300px;
-    background-color: red;
+    /* background-image: url("https://static01.nyt.com/images/2021/03/30/multimedia/28xp-shoes-09/28xp-shoes-09-superJumbo.jpg"); */
     position:  relative;
+}
+.imgcenter {
+    align-items: center;
 }
 
 .inner-div {
