@@ -31,14 +31,18 @@ In this screenshot i have used
 2. Added margin, padding with 0px . box sizing as box border box .
 3. Added font family with times new roman and also given separate times , sherif if that fails .
 4. main body background with the rgba
-5. Header bar
-
+5. Header bar with the class selector addded and used text align , top , left , width attribute .
+6. Also added the background webkit and the background linear gradient . 
 
 
 ![Screen Shot 2023-09-03 at 2 17 25 PM](https://github.com/santosh337/HTML/assets/19283972/9e57b775-9b0c-4319-8264-a0e36a5cd7c3)
 In this screenshot i have used 
 
-1.
+1. Added navbar class selector and added the attribute display flex , position as sticky . top attribute as 0px .
+2. align item as center . Background color as the black .
+3. Added another selector navbar a selector. Added anchor text decoration attribute as none. As it was showing with underline .
+4. changed the default color and font  attribute
+5. Added input selector with width and margin right attribute .
 
 
 
@@ -48,8 +52,10 @@ In this screenshot i have used
 
 In this screenshot i have used 
 
-1. 
-
+1. Added shoe-box, imgcenter , innerdiv , heading1 as the selector for the class.
+2. Added position as Relative for the parent div and also added the position as absolute for the child div to given certain margin and position .
+3. Added background color as rgba color
+4. Added inside heading1 color for the div .
 
 
 
@@ -57,29 +63,7 @@ In this screenshot i have used
 
 In this screenshot i have used 
 
-1. 
-
-
-
-
-
-
-![Screen Shot 2023-09-03 at 2 17 46 PM](https://github.com/santosh337/HTML/assets/19283972/26d04353-ce88-4ba4-99b8-270f934385cf)
-In this screenshot i have used 
-
-1. 
-
-
-
-
-
-
-
-
-
-![Screen Shot 2023-09-03 at 2 17 53 PM](https://github.com/santosh337/HTML/assets/19283972/f40ec97b-a0aa-4004-9c5b-39a3e6f92df2)
-
-In this screenshot i have used 
-
-1. 
-
+1. shoediv , trending and shoesimg as the selector for the different div .
+2. Added background color , margin , margin top , heigth and width attribute .
+3. Added color for the trending , margin left and margin top attribute .
+4. Added border radius to become the circle  
