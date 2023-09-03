@@ -93,6 +93,7 @@ p {
     position:absolute;
     left: 600px;
     border-radius: 150px;
+    box-shadow: 5px 5px white;
 }
 
 .longerdiv {
