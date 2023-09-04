@@ -4,56 +4,50 @@
         padding: 0;
         box-sizing: border-box;
       }
-      .nav {
+      .navBar {
         max-width: 100vw;
-        background: linear-gradient();
         padding: 2%;
-        background: linear-gradient(
-          rgba(0, 0, 0, 1),
-          rgba(0, 0, 0, 0.9),
-          rgba(0, 0, 0, 0.8)
-        );
+        background: linear-gradient(rgba(0, 0, 0, 1),rgba(0, 0, 0, 0.9),rgba(0, 0, 0, 0.8));
       }
-      .nav_sub {
+      .navBarTitle {
         display: inline-block;
         margin-inline: 5%;
-        color: white;
+        color: rgb(255, 255, 255);
       }
-      .active {
-        background-color: white;
+      .enabled {
+        background-color: rgb(255, 255, 255);
         color: black;
         padding: 0.6% 1.5%;
       }
-      .main-1 {
+      .mainHeader1 {
         background-image: url("https://e0.pxfuel.com/wallpapers/850/763/desktop-wallpaper-construction-site-construction-work.jpg");
         height: 500px;
         width: 100%;
         background-repeat: no-repeat;
         background-size: cover;
       }
-      .main-2 {
+      .mainHeader2 {
         height: 500px;
         width: 100%;
-        /* border: 1px solid black; */
       }
-      .main-2 > img {
+      .mainHeader2 img {
         margin: 2%;
         width: 29%;
         height: 90%;
       }
-      .main-3 {
+      .mainHeader3 {
         padding: 2%;
-        background-color: black;
+        background-color: rgb(0, 0, 0);
         background-repeat: no-repeat;
         background-size: cover;
         height: 500px;
       }
-      .main-3-sub1 {
+      .mainHeader3SubTitle {
         width: 45%;
         display: inline-block;
-        color: white;
+        color: rgb(255, 255, 255);
       }
-      .main-3-sub2 {
+      .mainHeader3SubTitle2 {
         width: 45%;
         display: inline-block;
         margin: 1%;
