@@ -16,7 +16,7 @@
       }
       .enabled {
         background-color: rgb(255, 255, 255);
-        color: black;
+        color: rgb(0, 0, 0);
         padding: 0.6% 1.5%;
       }
       .mainHeader1 {
