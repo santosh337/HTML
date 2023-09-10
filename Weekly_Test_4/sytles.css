@@ -51,7 +51,7 @@ header {
   list-style: none;
 }
 
-.navbar .logo a {
+.navbar .main_logo a {
   display: flex;
   align-items: center;
   margin-left: 0;
@@ -177,16 +177,17 @@ section.about {
 
 .about .team ul {
   padding-left: 20px;
+  text-align: left;
 }
 
 section .cards .card {
-  background: #fff;
+  background: white;
   padding: 40px 15px;
   list-style: none;
   border-radius: 5px;
-  box-shadow: 0px 5px 10px rgba(0, 0, 0, 0.04);
+  box-shadow: 0px 5px 10px rgba(0, 0, 0, 0.2);
   margin-bottom: 40px;
-  width: calc(100% / 3 - 30px);
+  width: 33%;
   text-align: center;
 }
 
@@ -215,11 +216,11 @@ section .cards .card {
   margin-top: 5px;
 }
 
-.about .row {
+.about .details {
   padding: 0 10px;
 }
 
-.contact .row {
+.contact .details {
   margin: 60px 0 90px;
   display: flex;
   max-width: 1200px;
@@ -228,7 +229,7 @@ section .cards .card {
   justify-content: space-between;
 }
 
-.contact .row .col {
+.contact .details .col {
   padding: 0 10px;
   width: calc(100% / 2 - 50px);
 }
@@ -265,12 +266,12 @@ section .cards .card {
 .contact form button {
   margin-top: 10px;
   padding: 10px 20px;
-  font-size: 17px;
+  font-size: 18px;
   color: #fff;
   border: none;
   cursor: pointer;
   border-radius: 5px;
-  background: #333;
+  background: #333333;
   transition: 0.2s ease;
 }
 
@@ -350,15 +351,15 @@ footer a {
     padding: 9px 20px;
   }
 
-  .contact .row {
+  .contact .details {
     flex-direction: column;
   }
 
-  .contact .row .col {
+  .contact .details .col {
     width: 100%;
   }
 
-  .contact .row .col:last-child {
+  .contact .details .col:last-child {
     margin-top: 40px;
   }
 
