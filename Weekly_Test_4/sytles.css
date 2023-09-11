@@ -303,6 +303,7 @@ footer a {
   padding: 0;
 }
 
+@media screen and (max-width: 860px) {
   .navbar .all-links {
     position: fixed;
     left: -100%;
@@ -312,7 +313,6 @@ footer a {
     top: 75px;
     background: #333;
     transition: left 0.3s ease;
-    max-width: 850px;
   }
 
   .navbar #menu-toggler:checked~.all-links {
@@ -321,7 +321,6 @@ footer a {
 
   .navbar .all-links li {
     font-size: 18px;
-    max-width: 850px;
   }
 
   .navbar #hamburger-btn {
@@ -335,14 +334,12 @@ footer a {
   section .cards .card {
     width: calc(100% / 2 - 15px);
     margin-bottom: 30px;
-    max-width: 850px;
   }
 
   .home_page .content h1 {
     font-size: 40px;
     font-weight: 700;
     margin-bottom: 10px;
-    max-width: 850px;
   }
 
   .home_page .content .text {
@@ -352,7 +349,6 @@ footer a {
   .content a {
     font-size: 17px;
     padding: 9px 20px;
-    max-width: 850px;
   }
 
   .contact .details {
@@ -365,12 +361,12 @@ footer a {
 
   .contact .details .col:last-child {
     margin-top: 40px;
-    max-width: 850px;
   }
 
   footer a {
     height: 0;
   }
+}
 
   section .cards .card {
     width: 100%;
