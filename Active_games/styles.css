@@ -1,7 +1,11 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap');
+
+
 * {
     margin:0;
     box-sizing: border-box;
-    
+    font-family: 'roboto',sans-serif;
+    color: rgb(137, 160, 183);
 }
 
 .maindiv {
@@ -10,30 +14,81 @@
     flex-direction: row;
     flex-wrap: wrap;
     height: 100vh;
-    width: 100vw;
+    width: 100%;
+    gap: 100px;
 }
 
 .sideTab {
     width: 20%;
     background-color : rgba(241, 251, 249, 0.9);
     border-radius: 20px;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    justify-content: space-around;
+}
+.image{
+    width: 100%;
+    height: 25%;
+}
+
+.image_person {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+}
+
+.image .name {
+    font-size: 16px;
+    font-weight: 600;
+}
+
+.image .pro {
+    font-size: 13px;
+    font-weight: 400;
+}
+
+
+.stream_Container{
+    width: 100%;
+    height: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+}
+.listStream {
+    display: flex;
+    justify-content: row;
+    flex-wrap: wrap;
+    gap: 20px;
+    align-items: center;
+    margin: auto;
+}
+
+.games{
+    width: 100%;
+    height: 25%;
 }
 
 
 .rightTab {
-    z-index: 5;
     width: 80%;
     display: flex;
-    flex-direction: column;
-    margin: auto;
-}
-
-.rightTab section {
-    display: flex;
     flex-direction: row;
-    width: 100vw;
 }
 
-.activeGames {
-    margin-left: 40px;
+.insideSection {
+    border-radius: 20px;
+    background-color: rgb(237, 250, 247);
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;  
+  flex-direction: row;
+}
+
+.text_large {
+    display: flex;
+    justify-content: space-around;
+    flex-direction: column;
 }
