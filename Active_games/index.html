@@ -1,106 +1,131 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <link rel="stylesheet" href="styles.css">
 </head>
+
 <body>
     <div class="maindiv">
         <!-- side bar part from here -->
-        <aside class="sideTab">
+        <div class="sideTab">
             <div class="image">
-                <img class="image_person" src="data:image/jpeg;base64,/9j/4AAQSkZJRgABAQAAAQABAAD/2wCEAAoHCBIVEhgSEhIRGBgSGBgYGRgcERgYHhYVGRoaHBwcGBgcIS4lHB8rJBwYJjgmKy8xNTU1GiQ7QDszPy40NTEBDAwMEA8QHxISHzQrJSw0NDQ0ODQ0MTQ0PToxNDQ0NDQ0NDQ0NDQ0NDQ0NDQ0NDQ0NDQ0NDQ0NDQ0NDQ0NDQ0NP/AABEIALcBEwMBIgACEQEDEQH/xAAcAAEBAAIDAQEAAAAAAAAAAAAAAQQGAgMFBwj/xAA+EAACAQIEAwUFBgQFBQEAAAABAgADEQQSITEFQVEGImFxkRMygaGxB0JSwdHwI3KC4RRikqLxU2OywuIV/8QAGAEBAAMBAAAAAAAAAAAAAAAAAAIDBAH/xAAiEQEAAgICAwACAwAAAAAAAAAAAQIDESExEjJBBCITUYH/2gAMAwEAAhEDEQA/APq1otEQJJOVpLQIZJYgSIiAktLECRaWIHGSKjhVLMQAoJJOwA3JnyvtJ9olR3ang+4guM9u8/io+6POHdPpmLx1KkM1WpTQdXcLfyudZ5T9ruHi5/xVM2/Dmb6DWfEa2IZ29pVd3Y7sxLEnzJ2mM2MXof8AVI7d0/QGF7Q4OoQtPFUSToBnAJPgDa89WfmhsVpsD9bTZuy3birhmVCzPSv3kZico6ox93y2+s7s0+4y2mPgMZTrU0q02zJUAZT4ePQzJnUUtLEQEREBESwJEsQJaJYgSJbRAklpYgcYltEDtiIgSJYgQicZygiBxiWSBIlkgIiIGg/atxcpQTDISGrHM1jbuLyPgSf9pnybDIWv4aTdPtXJPEEH/ZT/AM6l5qOHQO/s17t/HntrIynWGXg+CV8TZaY0G5vlA/WbLhPs/X2Z9pUu5GhC6Kfzmy9nMCtKmqg3038efzvNhUeUzTktPTTGOsdvk+O7DVU9xkYddRPFx/Z6rSGYi/lyn2bEU81/K/pNe4lQLL3hp5Tn8toS/irMOr7IOKkrUwjZu7/ETwubOPD7p9Z9NnyDsChpcWyDRalN7D0P1WfX5rrO42x2jU6IiJ1EliICJYgSWIgJJytJASSxAkksQJERA7YiICIiBJDLJASSxA4xLJAkSxA+Tfa3StiaL/jpEf6X/wDqaf2ewRfEC5sF1PjafUe2mAXEVclQKVpocupVgTZmIb0052mmcEwYTEuim6hVKnqDKL3jUxDTTHPEy2SrxZMMAGDMT7qgEk+n1mJU7a1F93DkjqWt8pl1eGe0BbnsNbaTzsfwIutOnkq3pkk2CqHJ01PIDoNPCU1mv1faJnp7XDuMmsrMadiFN7cprnFu2IBNNaWbl7wE3DhnD1pAKBYlcra3vyM1LEcIQCvSWnnLsVY3AYLmuMp5cp2JrvkmJ1wzPs4f22Neq6ZWp0mtY3Bzso38LH1n1GfNuwnD2w2LAIyisjrlzXtazf8ArPpU1UmJrwxZImLckREkgSxEBEoi0BaIiAiIgDJLECRKZIEiIgdsREBJLECSSyQJBiIEiUyQJEskDw+0OG2qWuACrjwOx/KaRxcLRrU6iCykFDtte6nT4+k+ougYFWFwwsR1E0btzw7JTQg5lzX13UjW1xuCL+kz3pzuGnHl48Z/x38NxCaEkaiZdXGIHCKbs2vkOZJ5CaThsYFyXJspW/8AKbjX5es4VcBi/al1DOrnvMrDu8xe/wB22gtf5yqK/Gjy22p+O0EfLUZrg62RiB/Vt854vEOO4cYu1Ngxbf8A56ztXslnW701vvriyDex5BfAzWON9m/YsBTSmWdrd2sWy3vq1xJxWNcoTad8abrwvHo+KolT98jy0II+c3+fJuxuAy4yjTDZiGeqx6Ii2Hq2k+sy7FGqs+a27EsRLFJESiAiIgIiICIlgSIiAgxBgSIiB2REQERJASSyGAklkgDJLBgSIiBJ4/avC58I45oA4/p3+V57E669MOjIdnUqfIgicmNw7E6nb4dRrDMaVTS+hvp+9hNr4Fiqi/w2IIA0bqJrvFeHFzmAsy3B+Bnl/wCNrUjrfTn1EzTXfTXFtdvoPE6ldF/h08wY8mGnwM13EPWYk1VyWHNr+k81u19QLY3Bvppy/f1nl4zjdSppqBfc9J2K2dnLH9vpP2Z4ByKuMcH+JZE8UU94jwvYf0mb9PjfZ3tnjKZprUemaKFUCCkgJpjT3gL5rc/DWfYkcMAykEMAQeoOoM1eM1iGKbeVpcxECJwURAiAiIgJZJYCIiBDEGICIiBIliBziIgJIiAklkgJIiAgxJAREGBJGYAXJsBqfACcK9dEF6joo6swH1mudpO0FL/DulF8zuMgsCAAdCbnfS+0lFZnpGbRDVqmIp1KjvT1Vncr/qMx8dh6T0yGXvdRz85g8KovSY02J7rsDcW1ueU9jEKtrMVW5tcsB6E85jnm/DbHFNy0fH4XLsAfhPMpo7NbKQPrPolXCU8uguTbW1x8Dz/sZhtwtR3rb7TbgwzMbsw5s1Ynxq8PBYe512E+odkON01oLRq1FRqZIQnQFNxdtgRcjfYCaOuFYHQd46AeXM87Aa+kzMLQyAs/Lva62A6+J1Pxmu1ItGmaLzWdvrKkEXBBB5jWWfMcDxOpSUVFqMmY6IDcHXTuHQnabVgu0w0WsgHV12Hmp/IzPbDavXK6uaJ7bKInCnUDAMpBDagjYic5SuIiICWSWAiIgQxEQERF4CIvEDnJLJASSyQESRAREQEkpnh9oeL+zU06Z77DcfcHXzMlWs2nUI2tFY3LLx/F6NLRmu34V1Px6fGapxjtVWKkUwEzGygasb9WP5TzkH3jv18TMFAalZj92l3R4v8AePw2mqmGsd8sts1p64ZNKm7d6oxdjuTr9ZhJilfFvh8x7lICw2LO4zXHUDIB/MZ6uoUgam217X855nDeFik/tD3ndu+/VmN9OgBt8JO8bjhGkxE8vqOGwiCmobK2VQLlQdh4zUu2jOa6JTRCtNNbrcBmvcEWI2Am7Ycgop6gH1E0Tibh6rvcfxGNjfXLsNPgPSZcVd2205barprq1Hpd4qTSJv3U9wm+qrzU6m3pub+kjgrn3HXcfCZ2WwtOj2Avm1ve+5te2hI2v4zWy7Y1Q5RnYatYAfHQafPx+E5VaQCE1NvebXfoLzuqU81VF0sgLnz91R9TOOOph3Smx0Wzsv4rGyg+FwT/AEid6R7Y+FwwB9q+rt7pt7q8lQH3V8dz8p24isq2zNY7hRqx8wNf2YHtHJFM2F9XI+SD852rhkTVRrfVibsdDuYdceH8drUHBWm5QnvKxsCPAcj4z6HgsUlWmtSmbq4uOo6g9CDcT5din3mxfZ/jiTUok6DvqOmtm+q+kz5qRryhow3nepbtERMzQREQEREBERAGSUyQJERA7IkiAkliAkiICCYMkDF4ljBSptUPLQDqx2mgu5dmZjckkk9Z7najFFqnsxtTGo6sRc/K08GiBci513BFiPOa8NdV2y5rbnTpxzMoGXe5t4sRYfM3+E54PDhFCC5sNT1J3PxOs5jKTc/dPp+/znYsu+KALO+nQVlLFlvmAC8z4+U4KNpkYCnnqqOpA+H7vIXnUbSpG5027EvkwxPNUAHmQB+c0z2djry306/HUzau0L2pqn4j8gP1Ims0hdmPS2vU/wBhb1lWKONrss86MshW2s78ukxsS9rLzLAS9RMCIAWc87fBR+yZi0VD5nJNqlrfyKLD/wBj/VMftLjjTohF9+qyov8AUbEj4TvUHKAmgAy36AaC0QS51sUqd3c20UC59OUxnZ27z2Ucl3PxPWdqIFBsNSdTzPxnTWY8/wBIGFjG6/sTN7FOVxyLtnV7jwKlh9BPKxPEaCG7MHce6i6gHXVm2nd2Txjf46lUbQu+W3QOMtvnK8nrMLMcatD6/LIImNsWIiAiIvAQYvJASSyQJERA7IkiBZIgmAgmSICcXcKCxNgBcnoBOU8vtBiclEqPeqd0fmfSdrG505adRtqePqhqjVDs7GzeZ0DDl5zorGzLtY3HiPDxGkyBsQVvyI3uD9ZiVGBW2+XVT1UdfEWKmbqxrhimd8uFNrM1+s70FxMJqlnYeX0mZh2FpJB3G1rk2/We32YwwLmp+AafzH9n1nmUMKXVsrKAgzG5tp0+s2PsylqRb8TH5SjLb9Zhfir+22F2lqn2gX8KfM35DXpPJw3ufvrM7tAt6zm9suQabm4Gl+UwqSWAFtgBJU9YRv7SPV/zWHP6zz69Ul1sxt5+HOZVVQbjvcuYtp5zz6tJSygM9ybAG3PSTiEZYOGRq1cOxulEk665n2AUc7b+k91hzOgneKaooVR7oAH79Z1Meqt12nUWBVZ291SPHwmE/CA5vULnUC3ha5+k9wqTsPXScK5yrcuB5fvy+c47DW6/DKdNS2UL08v1mPwh8uJonpUQ/wC8GdmOq5294sBOvglIvjKK/wDcT/yF/lmPwkb9LKdvtcs4yzE1rLecYgcryRJAsSRASREBEkQOy8XkiAiJIFiSIFmpcYxOeqQNk7o+G5/fSbBxXE5KZI3bQfmZqfiZfhr9UZrfHWTY62HQ30NphYpLsLcwfXn66fETNxLi3pMJKTOSByNgfGXWtWseVlVaWtOqw8ao5WobnSy/HT+09PC1wRfynqPwaipU1Fz5QNyb69dbTyjgj7R0pI2Vu8o5KQbWuduXrKqflVvbxiF+T8W1K+UzDLqBMwzBTlAI8NdxN44ItsOh6gn1M088MdiGJAtpa/O2uwmxYDiPs6S08ua2gN7C1/KTyxNoiIVYpis7l5fHaje0cjkVNtenWea/EFRlp7sRc2PugT1cejuzsCEzW8bafPaa0OGVi7VFu4qAAMFVRlvqVGYkjoT1nYtSlYi06c8bWtPjG2Wa977ycPAerm/ACfjsPqZ0VWqISDQqW0+6dfTTpMyhUVNGDKW3NjZemvOSratvWdo2rNfaNM51ubzgysdFHmTtOh6tZTqEKH7wB28QfrKRVP3hY7W03kkXYtFQb1HY2+A9BPAx5zsz3sv3R4dfz+M9HF029wElm1bwH99fnPGxdSxI6aTjsMKvZRabF9nfDS1c12GlMEj+dwQP9pb5TV6hLG3U/KfSPs/p2wrP/wBRzb+VVUD85Tktqq6kctqiImZoIiICIkgWJLxeBZJLwTARJeIHZEksBESQLETpxVdUptUYgBFLEnwgavxXiLNUs4a+ZkRFFzYG1z0GlyTpMdAzDvd2+wDA+ptMPA4t6oNQrZXYhARY5B95udzqbch5zvVzm+J9JurHjGmK07nbtqYRGAB5ka31MycNQCe4covrruOl5jrUufj0nbUxFhc/v4SNqxbuHa2mvUsmsoJ1F/zMLTF73169PITyK/E6miU6RudmJuD6TFqU3bvYip3R90tkX4jQesVpFeuHbXtbudvefFUwLBkO+x3tvbXeYuK4nTprnqXUXt1Opt+/KYAxSWV6eTINLqhYW27pG/rNX7RcSV2FMMWY91VAJLE7afnJRCO5bVxWuaj06NNhkqMS5BF2RQt102uSL+Gk2spTCrew5AX+k+Z4L2j10Qu4WjTAbLsz3OezdAdNPwzbqdbug3N12J5MPyImW/49r23aeGquetK6rHLv4liCabClcEnKrkrYHa9r68xraYuErOe7UAbQ97LuVJVgRte+oPMGc3cMGBGh0deanqPDxnnVcVUUhRtmse6T3h4jYMLHzvNGPHWkaqzZMlrzuz0y6gEZbfH6ToNemLE5h8Py/Sc8PUDi/IdevSdDU75i3/EmiwsfxamgYUwzO53Imu4h7bm55+c9PHsqm4AuflPKVLksdl1Pn/aclKGNVuABbVt/AfvSfX+y+G9ng6SEalcx/rJb6ET5Hww58Wgb3ajqhH+QkDT6z7goAAA2Gg8pRlnqGikOcTjEoWOUl5IgLxJEBEkl4FJkJkJkJgcrxOu8QMmIiAiIgJ5Hadb0MvJnXN4qLsR8hESdPaEL+staVtdBt8IFQX/ZkibWRzNbpl9D+s8niPEG0VbdTuLjlveInIHmf/o4qp3A4QDmoF7fzH8hMvD8KS3tKl6hGt2OY/OSIgl43GOPZm9kuigcl102seXLaZfDeBuKAqZiKlV8jFSoZKeVjlRiDlJtYkHnETscuzw2vg60zTGHVcrUhZQdbp0LTtq0ypvl20YXFmX9YicRcSmzqfLxH4T4TjV0K1lGjCzLfe0kTo9CktNlDXIA12nkYrF3zEbcvG3OSJGO0vjXsUxZvE6TG403s0WmNSwzMP8ALz16mIi3Tte3odjOGrUr0Tf3HLHyUZh89PjPrkRM2Xtqp0RESpJIiICSIgSSIgQmcTEQJeIiB//Z" alt="">
+                <img class="image_person"
+                    src="data:image/jpeg;base64,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"
+                    alt="">
                 <div class="name">Simo Edwins</div>
                 <div class="pro">Pro Member</div>
             </div>
             <div class="stream_Container">
                 <div class="listStream">
-                    <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-brand-twitch" width="32" height="32" viewBox="0 0 24 24" stroke-width="1.5" stroke="#00bfd8" fill="none" stroke-linecap="round" stroke-linejoin="round">
-                        <path stroke="none" d="M0 0h24v24H0z" fill="none"/>
-                        <path d="M4 5v11a1 1 0 0 0 1 1h2v4l4 -4h5.584c.266 0 .52 -.105 .707 -.293l2.415 -2.414c.187 -.188 .293 -.442 .293 -.708v-8.585a1 1 0 0 0 -1 -1h-14a1 1 0 0 0 -1 1z" />
+                    <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-brand-twitch" width="32"
+                        height="32" viewBox="0 0 24 24" stroke-width="1.5" stroke="#00bfd8" fill="none"
+                        stroke-linecap="round" stroke-linejoin="round">
+                        <path stroke="none" d="M0 0h24v24H0z" fill="none" />
+                        <path
+                            d="M4 5v11a1 1 0 0 0 1 1h2v4l4 -4h5.584c.266 0 .52 -.105 .707 -.293l2.415 -2.414c.187 -.188 .293 -.442 .293 -.708v-8.585a1 1 0 0 0 -1 -1h-14a1 1 0 0 0 -1 1z" />
                         <path d="M16 8l0 4" />
                         <path d="M12 8l0 4" />
-                      </svg>
-                      <div>Streams</div>
+                    </svg>
+                    <div>Streams</div>
                 </div>
-    
+
                 <div class="listStream">
-                    <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-brand-steam" width="32" height="32" viewBox="0 0 24 24" stroke-width="1.5" stroke="#00bfd8" fill="none" stroke-linecap="round" stroke-linejoin="round">
-                        <path stroke="none" d="M0 0h24v24H0z" fill="none"/>
-                        <path d="M16.5 5a4.5 4.5 0 1 1 -.653 8.953l-4.347 3.009l0 .038a3 3 0 0 1 -2.824 3l-.176 0a3 3 0 0 1 -2.94 -2.402l-2.56 -1.098v-3.5l3.51 1.755a2.989 2.989 0 0 1 2.834 -.635l2.727 -3.818a4.5 4.5 0 0 1 4.429 -5.302z" />
+                    <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-brand-steam" width="32"
+                        height="32" viewBox="0 0 24 24" stroke-width="1.5" stroke="#00bfd8" fill="none"
+                        stroke-linecap="round" stroke-linejoin="round">
+                        <path stroke="none" d="M0 0h24v24H0z" fill="none" />
+                        <path
+                            d="M16.5 5a4.5 4.5 0 1 1 -.653 8.953l-4.347 3.009l0 .038a3 3 0 0 1 -2.824 3l-.176 0a3 3 0 0 1 -2.94 -2.402l-2.56 -1.098v-3.5l3.51 1.755a2.989 2.989 0 0 1 2.834 -.635l2.727 -3.818a4.5 4.5 0 0 1 4.429 -5.302z" />
                         <circle cx="16.5" cy="9.5" r="1" fill="currentColor" />
-                      </svg>
-                      <div>Games</div>
+                    </svg>
+                    <div>Games</div>
                 </div>
-    
+
                 <div class="listStream">
-                    <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-brand-discord" width="32" height="32" viewBox="0 0 24 24" stroke-width="1.5" stroke="#00bfd8" fill="none" stroke-linecap="round" stroke-linejoin="round">
-                        <path stroke="none" d="M0 0h24v24H0z" fill="none"/>
+                    <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-brand-discord"
+                        width="32" height="32" viewBox="0 0 24 24" stroke-width="1.5" stroke="#00bfd8" fill="none"
+                        stroke-linecap="round" stroke-linejoin="round">
+                        <path stroke="none" d="M0 0h24v24H0z" fill="none" />
                         <path d="M8 12a1 1 0 1 0 2 0a1 1 0 0 0 -2 0" />
                         <path d="M14 12a1 1 0 1 0 2 0a1 1 0 0 0 -2 0" />
-                        <path d="M8.5 17c0 1 -1.356 3 -1.832 3c-1.429 0 -2.698 -1.667 -3.333 -3c-.635 -1.667 -.476 -5.833 1.428 -11.5c1.388 -1.015 2.782 -1.34 4.237 -1.5l.975 1.923a11.913 11.913 0 0 1 4.053 0l.972 -1.923c1.5 .16 3.043 .485 4.5 1.5c2 5.667 2.167 9.833 1.5 11.5c-.667 1.333 -2 3 -3.5 3c-.5 0 -2 -2 -2 -3" />
+                        <path
+                            d="M8.5 17c0 1 -1.356 3 -1.832 3c-1.429 0 -2.698 -1.667 -3.333 -3c-.635 -1.667 -.476 -5.833 1.428 -11.5c1.388 -1.015 2.782 -1.34 4.237 -1.5l.975 1.923a11.913 11.913 0 0 1 4.053 0l.972 -1.923c1.5 .16 3.043 .485 4.5 1.5c2 5.667 2.167 9.833 1.5 11.5c-.667 1.333 -2 3 -3.5 3c-.5 0 -2 -2 -2 -3" />
                         <path d="M7 16.5c3.5 1 6.5 1 10 0" />
-                      </svg>
-                      <div>New</div>
+                    </svg>
+                    <div>New</div>
                 </div>
-    
+
                 <div class="listStream">
-                    <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-book-2" width="32" height="32" viewBox="0 0 24 24" stroke-width="1.5" stroke="#00bfd8" fill="none" stroke-linecap="round" stroke-linejoin="round">
-                        <path stroke="none" d="M0 0h24v24H0z" fill="none"/>
+                    <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-book-2" width="32"
+                        height="32" viewBox="0 0 24 24" stroke-width="1.5" stroke="#00bfd8" fill="none"
+                        stroke-linecap="round" stroke-linejoin="round">
+                        <path stroke="none" d="M0 0h24v24H0z" fill="none" />
                         <path d="M19 4v16h-12a2 2 0 0 1 -2 -2v-12a2 2 0 0 1 2 -2h12z" />
                         <path d="M19 16h-12a2 2 0 0 0 -2 2" />
                         <path d="M9 8h6" />
-                      </svg>
-                      <div>library</div>
+                    </svg>
+                    <div>library</div>
                 </div>
             </div>
             <div class="games">
 
             </div>
 
-            
 
-        </aside>
-
-        <!-- Right side part from here -->
-        <div class="righTab">
-            <div class="activeGames"> Active Games</div>
-            <section class="insideSection">
-                <div>
-                    <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSKmzi1mCO1QwiUFCxh-5YmHNe9KW7f4ap4Cw&usqp=CAU" alt="" width="60px" height="60px">
-                </div>
-                <div class="text_large"><div class="largerText">Larger text given</div>
-                <div class="description">Description text given</div>
-                <div class="rowbar">row given here</div>
-                <div><div class="percentag">60%</div></div>
-            </div>
-            </section>
-
-
-            <section class="insideSection">
-                <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSKmzi1mCO1QwiUFCxh-5YmHNe9KW7f4ap4Cw&usqp=CAU" alt="" width="60px" height="60px">
-                <div class="largerText">Larger text given</div>
-                <div class="description">Description text given</div>
-                <div class="rowbar">row given here</div>
-                <div class="percentag">60%</div>
-
-            </section>
-
-
-
-
-            <section class="insideSection">
-                <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSKmzi1mCO1QwiUFCxh-5YmHNe9KW7f4ap4Cw&usqp=CAU" alt="" width="60px" height="60px">
-                <div class="largerText">Larger text given</div>
-                <div class="description">Description text given</div>
-                <div class="rowbar">row given here</div>
-                <div class="percentag">60%</div>
-
-            </section>
 
         </div>
+
+        <!-- Right side part from here -->
+        <div class="rightTab">
+            <div class="activeGames"> Active Games</div>
+            <div class="insideSection">
+                <div class="inside_image">
+                    <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSKmzi1mCO1QwiUFCxh-5YmHNe9KW7f4ap4Cw&usqp=CAU"
+                        alt="">
+                </div>
+                <div class="inside_content">
+
+                </div>
+
+                <div class="inside_percent"></div>
+            </div>
+
+
+
+            <div class="insideSection">
+                <div class="inside_image">
+                    <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSKmzi1mCO1QwiUFCxh-5YmHNe9KW7f4ap4Cw&usqp=CAU"
+                        alt="">
+                </div>
+                <div class="inside_content">
+
+                </div>
+
+                <div class="inside_percent"></div>
+            </div>
+
+
+
+
+        <div class="insideSection">
+            <div class="inside_image">
+                <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSKmzi1mCO1QwiUFCxh-5YmHNe9KW7f4ap4Cw&usqp=CAU"
+                    alt="">
+            </div>
+            <div class="inside_content">
+
+            </div>
+
+            <div class="inside_percent"></div>
+        </div>
+    </div>
+    </div>
+    </div>
     </div>
 </body>
+
 </html>

@@ -1,0 +1,36 @@
+* {
+    margin: 0;
+}
+
+.main {
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+.left {
+    width: 20%;
+    height: 100vh;
+    background-color: saddlebrown;
+}
+
+.right {
+    width: 50%;
+    height: 100vh;
+    background-color: slateblue;
+}
+
+.image_box {
+    display: flex;
+    height: 15%;
+    flex-direction: row;
+    justify-content: space-around;
+    background-color: silver;
+    align-items: center;
+}
+
+.image_box .imageDiv img {
+    border-radius: 50%;
+}

@@ -11,15 +11,16 @@
 .maindiv {
     background-color: rgba(150, 195, 186, 0.5);
     display: flex;
-    flex-direction: row;
+    flex-direction: column;
     flex-wrap: wrap;
+    justify-content: flex-start;
     height: 100vh;
-    width: 100%;
-    gap: 100px;
+    width: 100vw;
 }
 
 .sideTab {
     width: 20%;
+    height: 100vh;
     background-color : rgba(241, 251, 249, 0.9);
     border-radius: 20px;
     display: flex;
@@ -30,6 +31,7 @@
 .image{
     width: 100%;
     height: 25%;
+    margin-top: 100px;
 }
 
 .image_person {
@@ -57,13 +59,13 @@
     justify-content: space-between;
     align-items: center;
 }
+
 .listStream {
     display: flex;
-    justify-content: row;
-    flex-wrap: wrap;
-    gap: 20px;
+    flex-direction: row;
     align-items: center;
     margin: auto;
+    padding: 30px;
 }
 
 .games{
@@ -73,22 +75,52 @@
 
 
 .rightTab {
+    border: 2px red solid;
     width: 80%;
+    height: 100vh;
     display: flex;
-    flex-direction: row;
+    flex-direction: column;
+    align-items: center;
+    
 }
 
 .insideSection {
     border-radius: 20px;
-    background-color: rgb(237, 250, 247);
+    background-color: rgb(237, 250, 247);    
+    width: 80%;
+    height: 25vh;
+    border: 2px blue solid;
+    margin: 1rem 0rem ;
     display: flex;
-    justify-content: space-around;
-    flex-wrap: wrap;  
-  flex-direction: row;
+
+}
+.inside_image{
+    border: 2px solid green;
+    width: 25%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
-.text_large {
-    display: flex;
-    justify-content: space-around;
-    flex-direction: column;
+.inside_image img{
+    width: 80%;
+    height: 80%;
+}
+
+.inside_content{
+    border: 2px solid yellow;
+    width: 55%;
+    height: 100%;
+}
+
+.inside_percent{
+    border: 2px solid red;
+    width: 20%;
+    height: 100%;
+}
+.activeGames {
+    font-size: 40px;
+    font-weight: 600;
+    padding: 80px;
 }
