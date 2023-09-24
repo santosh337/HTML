@@ -1,0 +1,170 @@
+.main {
+	background: rgb(249, 247, 219);
+	background: linear-gradient(
+		0deg,
+		rgba(249, 247, 219, 1) 0%,
+		rgba(248, 247, 219, 1) 50%,
+		rgba(233, 230, 195, 1) 100%
+	);
+}
+
+.container {
+	height: 740px;
+	width: 928px;
+	margin: 0 auto;
+	display: flex;
+}
+
+.logo {
+	background: url(/images/globalpic.jpg) no-repeat;
+	width: 75px;
+	height: inherit;
+}
+
+.container span {
+	font-size: 3rem;
+	margin-left: 1rem;
+}
+
+.container-tomato {
+	background: #cd4007 url(/images/globalpic.jpg) no-repeat -77px -494px;
+	width: 216px;
+	height: 96%;
+}
+
+.container-kiwi {
+	background: #9fb31a url(/images/globalpic.jpg) no-repeat -294px -494px;
+	width: 216px;
+	height: 96%;
+}
+
+.top {
+	height: 110px;
+	width: 100%;
+	position: relative;
+	text-align: center;
+}
+
+.top a {
+	text-decoration: none;
+	color: #646464;
+	font-size: 12px;
+	font-weight: 700;
+	padding-top: 56px;
+}
+
+.top a:hover {
+	height: 110px;
+}
+
+.main-page,
+.about-us {
+	position: absolute;
+	right: 0;
+	top: 0;
+	width: 47px;
+	height: 92px;
+}
+
+.main-page {
+	background: url(/images/homeBg.gif) no-repeat;
+}
+
+.about-us {
+	background: url(/images/about.gif) no-repeat;
+}
+
+.top .main-page:hover {
+	padding-top: 74px;
+	background: url(/images/homeBg.gif) no-repeat -48px 0;
+}
+
+.top .about-us:hover {
+	padding-top: 74px;
+	background: url(/images/about.gif) no-repeat -48px 0;
+}
+
+.container .container-text {
+	width: 80%;
+	margin: 200px auto 0;
+	position: relative;
+}
+
+.container h2 {
+	color: #fff;
+	font-weight: 400;
+	font-size: 1.625rem;
+}
+
+.container-text .sub-heading {
+	color: #ffe996;
+	font-size: 0.75rem;
+	font-weight: 700;
+	margin-top: 0.5rem;
+	line-height: 1.1875rem;
+}
+
+.container-text-paragraph {
+	margin-top: 20px;
+	font-size: 0.75rem;
+	color: #f8d85e;
+	line-height: 1.1875rem;
+}
+
+.container-text-paragraph a {
+	text-decoration: none;
+	background: #9f3105;
+	color: #f8d85e;
+}
+
+.container-text-paragraph a:hover {
+	background: #692104;
+}
+
+.read-more-button {
+	width: 62px;
+	height: 23px;
+	font-size: 11px;
+	color: #d9d9d9;
+	line-height: 20px;
+	background-color: #000;
+	border: none;
+	border-radius: 4px;
+	margin-top: 0.5rem;
+	position: absolute;
+	right: 0;
+	cursor: pointer;
+}
+
+.container-tomato .container-text .read-more-button:hover {
+	color: #cd4007;
+}
+
+.container-kiwi .container-text .read-more-button:hover {
+	color: #9fb31a;
+}
+
+.sub-heading-date h3 {
+	color: #fff;
+	font-size: 0.75rem;
+	margin: 0.9rem 0 0.5rem;
+}
+
+.sub-heading-date p {
+	font-size: 0.75rem;
+	color: #f2ff9a;
+}
+
+.sub-heading-date a {
+	color: #f2ff9a;
+	text-decoration: none;
+	background-color: #75850e;
+}
+
+.sub-heading-date a:hover {
+	background-color: #4b5509;
+}
+
+.sub-heading-date .second-date {
+	margin-top: 3rem;
+}

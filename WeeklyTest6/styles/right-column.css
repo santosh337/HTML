@@ -1,0 +1,135 @@
+.right-column {
+	width: 420px;
+	display: flex;
+	flex-direction: column;
+	margin-left: 34px;
+}
+
+.links {
+	margin-top: 22px;
+	display: flex;
+	justify-content: space-between;
+}
+
+.links ul li {
+	list-style: none;
+}
+
+.links ul li a {
+	display: inline-block;
+	padding-left: 15px;
+	font-size: 0.75rem;
+	color: #636038;
+	line-height: 22px;
+	height: 24px;
+	width: 176px;
+	font-weight: 700;
+	text-decoration: none;
+	border-bottom: #b1ae7e dotted 1px;
+	background: url(/images/liststyle.jpg) no-repeat 0 7px;
+}
+
+.links ul li a:hover {
+	color: #75850e;
+}
+
+.banner {
+	width: 171px;
+	height: 195px;
+	background: url(/images/globalpic.jpg) no-repeat -337px -110px;
+}
+
+.right-column h2 {
+	margin-top: 29px;
+	padding-left: 57px;
+	font-size: 34px;
+	color: #cb3e07;
+	line-height: 40px;
+	font-weight: 400;
+	background: url(/images/globalpic.jpg) no-repeat -467px -308px;
+}
+
+.more-links ul {
+	margin-top: 12px;
+	list-style: none;
+}
+
+.more-links ul li a {
+	width: 400px;
+	height: 27px;
+	margin-top: 3px;
+	padding-left: 27px;
+	font-size: 0.75rem;
+	float: left;
+	color: #3b3a2b;
+	line-height: 25px;
+	text-decoration: none;
+	background: url(/images/globalpic.jpg) no-repeat -75px -83px;
+}
+
+.more-links ul li a:hover {
+	color: #9fb31a;
+}
+
+.button-group {
+	display: flex;
+	justify-content: space-between;
+	margin-top: 25px;
+	width: 400px;
+}
+
+.image-button {
+	width: 127px;
+	height: 101px;
+	margin: 0px;
+	padding: 15px 0 0 25px;
+	font-size: 10px;
+	color: #a8a8a8;
+	line-height: 14px;
+	border: none;
+	cursor: pointer;
+}
+
+.image-button.ideas {
+	background: url(/images/globalpic.jpg) no-repeat -77px -392px;
+}
+
+.image-button.sign-up {
+	background: url(/images/globalpic.jpg) no-repeat -204px -392px;
+}
+
+.image-button.blog {
+	background: url(/images/globalpic.jpg) no-repeat -331px -392px;
+}
+
+.newsletter {
+	width: 398px;
+	height: 81px;
+	margin: 25px 0 0 0;
+	padding: 10px 0 0 114px;
+	float: left;
+	background: url(/images/globalpic.jpg) no-repeat -75px 0;
+}
+
+.form {
+	margin-top: 5px;
+}
+
+.form input {
+	font-size: 12px;
+	line-height: 14px;
+	padding: 3px;
+	width: 206px;
+}
+
+.submit {
+	width: 41px;
+	height: 23px;
+	background-color: #cd4008;
+	color: #fff;
+	border: none;
+	border-radius: 4px;
+	font-size: 11px;
+	line-height: 20px;
+	cursor: pointer;
+}
