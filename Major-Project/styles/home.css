@@ -1,0 +1,29 @@
+.home {
+	background-image: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.5)),
+		url('../assets/header-background.jpg');
+	height: calc(100vh + 3rem);
+	background-position: center;
+	background-attachment: fixed;
+	background-size: cover;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	text-align: center;
+	color: #fff;
+}
+
+.home h1 {
+	font-family: Montserrat, sans-serif;
+	text-transform: uppercase;
+	margin-top: 6rem;
+	font-size: 56px;
+}
+
+.home p {
+	font-size: 18px;
+	width: 45%;
+	color: #dfe5ec;
+	margin-top: 0.5rem;
+	margin-bottom: 2rem;
+}

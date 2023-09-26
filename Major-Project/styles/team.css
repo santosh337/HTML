@@ -1,0 +1,70 @@
+.team {
+	padding: 10rem;
+}
+
+.team > h4 {
+	color: #484a46;
+	font: 700 1.75rem/2.125rem 'Montserrat', sans-serif;
+	text-align: center;
+	margin-bottom: 0.75rem;
+}
+
+.team > p {
+	color: #787976;
+	text-align: center;
+	line-height: 1.5rem;
+	margin-bottom: 3.5rem;
+	width: 75%;
+	margin: 0 auto;
+}
+
+.team .team-member-list-container {
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+	padding: 3rem 0;
+}
+
+.team .team-member-list-container .team-member-item {
+	width: 20%;
+	flex-grow: 0;
+	flex-wrap: 0;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}
+
+.team .team-member-item img {
+	width: 100%;
+	border-radius: 5px;
+	object-fit: cover;
+	object-position: center;
+}
+
+.team .team-member-item p {
+	color: #787976;
+	margin-top: 2rem;
+	margin-bottom: 0.25rem;
+	font: 400 1.125rem/1.625rem 'Open Sans', sans-serif;
+}
+
+.team .team-member-item h5 {
+	margin-bottom: 0.75rem;
+	color: #484a46;
+	font: 700 1rem/1.375rem 'Montserrat', sans-serif;
+}
+
+.team .team-member-item .social-links {
+	display: flex;
+	gap: 0.5rem;
+}
+
+.team .team-member-item .social-links span {
+	padding: 0.75rem;
+	cursor: pointer;
+	color: #fff;
+}
+
+.team .team-member-item .social-links span:hover {
+	color: #14bf98;
+}

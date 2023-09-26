@@ -1,0 +1,91 @@
+nav {
+	display: flex;
+	position: fixed;
+	justify-content: space-between;
+	width: 100%;
+	top: 0;
+	left: 0;
+	height: 3rem;
+	padding: 0 5rem;
+	box-sizing: border-box;
+	align-items: center;
+	color: #fff;
+	z-index: 100;
+	background-color: #113448;
+}
+
+nav a {
+	text-decoration: none;
+	color: #fff;
+	transition: color 0.3s ease-in-out;
+}
+
+nav a.active {
+	color: #14bf98;
+}
+
+nav a:hover {
+	color: #14bf98;
+}
+nav img {
+	height: 2rem;
+}
+
+nav ul .icon,
+.social-links span {
+	display: grid;
+	place-content: center;
+	cursor: pointer;
+	font-size: 0.5rem;
+	background: url(../assets/hexagon-green.svg) no-repeat;
+	background-size: contain;
+	height: 28px;
+	width: 28px;
+	transition: 0.3s ease-in-out;
+}
+
+nav ul .icon:hover,
+.social-links span:hover {
+	background: url(../assets/hexagon-white.svg) no-repeat;
+	background-size: contain;
+	height: 28px;
+	width: 28px;
+}
+
+nav ul .icon:hover a {
+	color: #14bf98;
+}
+
+nav ul {
+	display: flex;
+	flex-direction: row;
+	list-style: none;
+	align-items: center;
+	margin: 0;
+	padding: 0;
+	gap: 1.5rem;
+}
+
+nav ul li a {
+	text-transform: uppercase;
+	font-weight: 600;
+	font-size: 14px;
+}
+
+button {
+	cursor: pointer;
+	border: 1px solid #14bf98;
+	background-color: #14bf98;
+	color: #fff;
+	text-transform: uppercase;
+	padding: 1rem 2rem;
+	border-radius: 5px;
+	transition: all 0.5s ease-in-out;
+	font-weight: 700;
+	font-size: 0.75rem;
+}
+
+button:hover {
+	background-color: transparent;
+	color: #14bf98;
+}

@@ -1,0 +1,124 @@
+.projects {
+	padding: 5rem 10rem;
+	background-color: #fff;
+}
+
+.projects > span,
+.projects > h3 {
+	display: block;
+	text-align: center;
+}
+
+.projects > span {
+	margin-bottom: 10px;
+}
+
+.projects > h3 {
+	color: #484a46;
+	font-size: 1.75rem;
+	margin: 0;
+}
+
+.projects .category-list-container ul {
+	display: flex;
+	flex-direction: row;
+	gap: 1rem;
+	padding: 3rem 0;
+	list-style-type: none;
+	align-items: center;
+	justify-content: center;
+	margin: 0;
+}
+
+.projects .category-list-container ul button {
+	background-color: #ebe8e8;
+	color: #484a46;
+	border: 1px solid #ebe8e8;
+	padding: 0.5rem 1rem;
+	border-radius: 5px;
+	margin: 0;
+}
+
+.projects .category-list-container ul button:hover {
+	background-color: #14bf98;
+	color: #fff;
+}
+
+.projects .category-list-container ul button.active {
+	background-color: #14bf98;
+	color: #fff;
+}
+
+.projects .project-list-container {
+	display: grid;
+	grid-template-rows: repeat(2, 1fr);
+	grid-template-columns: repeat(4, 1fr);
+	margin-bottom: 3rem;
+}
+
+.projects .project-list-container div {
+	overflow: hidden;
+}
+
+.projects .project-list-container .project-item {
+	object-fit: contain;
+	object-position: center;
+	background-position: center;
+	aspect-ratio: 1/1;
+}
+
+.projects .project-item {
+	transition: 0.3s ease-in-out;
+}
+
+.projects .project-item:hover {
+	transform: scale(1.1);
+	cursor: pointer;
+	filter: brightness(75%);
+}
+
+.projects .project-item.p-1 {
+	background-image: url('../assets/project-1.jpg');
+}
+
+.projects .project-item.p-2 {
+	background-image: url('../assets/project-2.jpg');
+}
+
+.projects .project-item.p-3 {
+	background-image: url('../assets/project-3.jpg');
+}
+
+.projects .project-item.p-4 {
+	background-image: url('../assets/project-4.jpg');
+}
+
+.projects .project-item.p-5 {
+	background-image: url('../assets/project-5.jpg');
+}
+
+.projects .project-item.p-6 {
+	background-image: url('../assets/project-6.jpg');
+}
+
+.projects .project-item.p-7 {
+	background-image: url('../assets/project-7.jpg');
+}
+
+.projects .project-item.p-8 {
+	background-image: url('../assets/project-8.jpg');
+}
+
+.projects .project-item p {
+	height: 100%;
+	width: 100%;
+	display: grid;
+	place-content: center;
+	font: 700 1.1rem 'Montserrat', sans-serif;
+	color: #fff;
+	opacity: 0;
+}
+
+.projects .project-item:hover p {
+	opacity: 0.9;
+}

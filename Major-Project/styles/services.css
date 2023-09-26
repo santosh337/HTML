@@ -1,0 +1,196 @@
+.services {
+	padding: 5rem 0;
+}
+
+.service-title {
+	color: #14bf98;
+	font: 500 0.8125rem/1.125rem 'Montserrat', sans-serif;
+	margin-bottom: 0.5rem;
+	text-align: center;
+}
+
+.services > span {
+	display: block;
+	text-align: center;
+}
+
+.services > h3 {
+	color: #484a46;
+	font: 700 1.75rem/2.125rem 'Montserrat', sans-serif;
+	margin-bottom: 3.25rem;
+	text-align: center;
+}
+
+.services .service-list-container {
+	display: flex;
+	flex-wrap: nowrap;
+	justify-content: space-between;
+	padding: 3rem 10vw;
+	align-items: start;
+}
+
+.services .service-list-container .service-item {
+	width: 30%;
+	flex-grow: 0;
+	flex-shrink: 0;
+	background-color: #fff;
+	border-radius: 5px;
+	border: 1px solid #ebe8e8;
+}
+
+.services .service-item img {
+	width: 100%;
+	height: 15rem;
+	object-fit: cover;
+	object-position: center;
+	border-radius: 5px 5px 0 0;
+}
+
+.services .service-item h4 {
+	margin: 0;
+	text-align: center;
+	font-size: 1.5rem;
+	color: #484a46;
+	padding: 0.5rem 2rem;
+}
+
+.services .service-item p {
+	margin: 0;
+	line-height: 1.5rem;
+	color: #787976;
+	padding: 0.5rem 2rem;
+}
+
+.services .service-item ul {
+	margin: 0;
+	line-height: 1.5rem;
+	color: #787976;
+	padding: 0.5rem 2rem;
+	list-style-type: none;
+}
+
+.services .service-item ul li:before {
+	content: '\25a0';
+	color: #14bf98;
+	margin-right: 5px;
+	font-size: 1.25rem;
+}
+
+.services .service-item h6 {
+	margin: 0;
+	font-size: 1.25rem;
+	color: #484a46;
+	text-align: center;
+	padding: 0.5rem 2rem;
+}
+.services h6 .price {
+	color: #14bf98;
+}
+
+.services .service-item button {
+	top: 0;
+	left: 50%;
+	position: relative;
+	transform: translate(-50%, 50%);
+}
+
+.services .service-item button:hover {
+	background-color: #fff;
+}
+
+.services .proportions {
+	display: flex;
+	flex-direction: row;
+	background-color: #fff;
+}
+
+.services .proportions h3 {
+	color: #484a46;
+	font: 700 1.75rem/2.125rem 'Montserrat', sans-serif;
+	margin-bottom: 1.625rem;
+}
+
+.services .proportions img {
+	width: 50%;
+	height: 35rem;
+	object-fit: cover;
+	object-position: center;
+}
+
+.services .proportions .content {
+	width: 100%;
+	box-sizing: border-box;
+}
+
+.services .proportions-1 .content {
+	padding: 5rem 20vh 5rem 5rem;
+}
+
+.services .proportions-2 .content {
+	padding: 5rem 5vh 5rem 20vh;
+}
+
+.services .proportions p {
+	color: #787976;
+	font: 400 1rem/1.5625rem 'Open Sans', sans-serif;
+	width: 70%;
+}
+
+.services .testimonials {
+	padding: 5rem 20vw;
+}
+
+.services .testimonials h3 {
+	color: #484a46;
+	font: 700 1.75rem/2.125rem 'Montserrat', sans-serif;
+	margin-bottom: 0.75rem;
+	text-align: center;
+}
+
+.services .testimonials p {
+	color: #787976;
+	font: 400 1rem/1.5625rem 'Open Sans', sans-serif;
+	text-align: center;
+}
+
+.services .testimonials > p {
+	width: 70%;
+	margin: 0 auto;
+}
+
+.services .testimonial-list-container {
+	display: flex;
+	flex-direction: row;
+	gap: 2.5rem;
+	overflow-x: scroll;
+	padding: 3rem 0;
+}
+
+.services .testimonial-item {
+	width: 32%;
+	flex-grow: 0;
+	flex-shrink: 0;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	gap: 1rem;
+}
+
+.services .testimonials img {
+	width: 6rem;
+	height: 6rem;
+	border-radius: 50%;
+}
+
+.services .testimonial-item p {
+	margin-top: 2.25rem;
+	line-height: 1.5rem;
+	color: #787976;
+	font-style: italic;
+}
+
+.services .testimonial-item h4 {
+	font: 700 1rem/1.375rem 'Montserrat', sans-serif;
+	color: #484a46;
+	margin-top: -2rem;
+}

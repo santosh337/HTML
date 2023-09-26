@@ -1,0 +1,193 @@
+.about {
+	display: flex;
+	flex-wrap: wrap;
+	margin: 10vh 7vw;
+	justify-content: space-around;
+}
+
+.about > div {
+	width: 500px;
+}
+
+.about-content > h6,
+.contact > div > h6 {
+	color: #14bf98;
+	font: 500 0.8125rem/1.125rem 'Montserrat', sans-serif;
+	margin-bottom: 0.5rem;
+	text-transform: uppercase;
+}
+
+.about-content > h2,
+.contact > div > h2 {
+	color: #484a46;
+	font: 700 1.75rem/2.125rem 'Montserrat', sans-serif;
+	margin-bottom: 1.375rem;
+}
+
+.about-content > p,
+.contact > div > p,
+.contact > div > .location,
+.contact > div > .contacts {
+	color: #787976;
+	line-height: 1.5rem;
+	margin-bottom: 1rem;
+}
+
+.about-content > ul {
+	list-style: none;
+	line-height: 1.8rem;
+}
+
+.about-content > ul > li {
+	position: relative;
+	color: #787976;
+}
+
+.about-content > ul > li::before {
+	content: '◼';
+	color: #12bf98;
+}
+
+.about-feedback {
+	display: flex;
+	justify-content: space-between;
+	margin-top: 1.5rem;
+}
+
+.about-feedback > div > h1 {
+	color: #14bf98;
+	font: 700 2.875rem/3.25rem 'Montserrat', sans-serif;
+}
+
+.about-feedback > div > div > p {
+	color: #787976;
+	font: 400 1rem/1.5625rem 'Open Sans', sans-serif;
+	margin-left: 0.5rem;
+	font-size: 0.875rem;
+	line-height: 1.25rem;
+}
+
+.about-feedback > div {
+	display: flex;
+	align-items: center;
+}
+
+.about-image img {
+	border-radius: 0.25rem;
+	object-fit: cover;
+	background-size: cover;
+	max-width: 525px;
+}
+
+.contact {
+	margin: 10rem;
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-between;
+}
+
+.contact-form,
+.contact-details {
+	width: 500px;
+}
+
+.contact-details h3 {
+	color: #484a46;
+	font: 700 1.375rem/1.75rem 'Montserrat', sans-serif;
+	margin-bottom: 1rem;
+	margin-top: 2.25rem;
+}
+
+.icons {
+	color: #14bf98;
+}
+
+.contacts > span {
+	text-decoration: underline;
+}
+
+.location,
+.contacts {
+	margin-top: 10px;
+}
+
+.hexagon-group {
+	display: flex;
+}
+
+.contact .hexagon {
+	background-image: url(../assets/hexagon-green.svg);
+	background-position: center;
+	background-repeat: no-repeat;
+	width: 50px;
+	height: 50px;
+	margin-left: 8px;
+	transition: 0.3s ease-in-out;
+}
+
+.contact .hexagon > i {
+	font-size: 1.5rem;
+}
+
+.hexagon:hover {
+	background: #fff;
+	width: 50px;
+	height: 50px;
+}
+
+.contact-form input[type='text'],
+input[type='email'],
+textarea {
+	outline: none;
+	border: 1px solid #dadada;
+	border-radius: 0.25rem;
+	background-color: #fff;
+	color: #787976;
+	width: 100%;
+	display: block;
+	padding: 0.8rem 1rem;
+	margin: 1rem 0px;
+}
+
+.checkbox {
+	display: inline;
+}
+
+.contact-form span {
+	color: #787976;
+	font-size: 0.8rem;
+}
+
+.contact-form button {
+	width: 100%;
+	margin-top: 1.5rem;
+}
+
+.contact-form > form > span > span {
+	text-decoration: underline;
+}
+
+footer {
+	display: flex;
+	justify-content: space-between;
+	background-color: #113448;
+	padding: 7rem 10rem;
+	color: #dfe5ec;
+}
+
+footer h2 {
+	font: 700 1.375rem/1.75rem 'Montserrat', sans-serif;
+	margin-bottom: 0.75rem;
+}
+
+footer a {
+	text-decoration: none;
+	color: #dfe5ec;
+	display: block;
+	text-decoration: underline;
+	line-height: 1.9rem;
+}
+
+footer > div:nth-child(1) {
+	width: 45%;
+}

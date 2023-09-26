@@ -1,0 +1,24 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@500;700&family=Open+Sans:ital,wght@0,400;0,600;1,400&display=swap');
+@import '/styles/navbar.css';
+@import '/styles/home.css';
+@import '/styles/intro.css';
+@import '/styles/services.css';
+@import '/styles/contact.css';
+@import '/styles/projects.css';
+@import '/styles/team.css';
+@import '/styles/about.css';
+
+* {
+	padding: 0;
+	margin: 0;
+	box-sizing: border-box;
+	font-family: 'Open Sans', 'sans-serif';
+}
+
+html {
+	scroll-behavior: smooth;
+}
+
+body {
+	background-color: #fbfbfb;
+}
