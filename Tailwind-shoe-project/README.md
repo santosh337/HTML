@@ -1,6 +1,6 @@
 # Assignment
 
-## [Live Website Link!](https://nirzon47.github.io/tailwind-shoe-card/)
+## [Live Website Link!](https://santosh337.github.io/HTML/Tailwind-shoe-project/)
 
 ### UI Structure
 
