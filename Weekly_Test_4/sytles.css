@@ -13,8 +13,6 @@ body {
 
 header {
   position: fixed;
-  top: 0;
-  left: 0;
   z-index: 100;
   width: 100%;
   display: flex;
@@ -51,11 +49,11 @@ header {
   list-style: none;
 }
 
-.navbar .main_logo a {
+/* .navbar .main_logo a {
   display: flex;
   align-items: center;
   margin-left: 0;
-}
+} */
 
 header a, footer a {
   margin-left: 40px;

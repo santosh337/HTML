@@ -1,0 +1,98 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-color: rgb(31, 30, 68);
+    color: white;
+    font-family: 'Helvetica';
+    animation: 3s Change-Color ease-in-out;
+
+}
+
+
+h2 {
+    animation: 3s move-H2 ease-in-out;
+    position: relative;
+}
+
+ul {
+    list-style: none;
+    padding: 2rem 6rem; 
+}
+li {
+    list-style: none;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 80vw;
+}
+
+.bottomContainer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.textArea-Subscribe {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    background-color: silver;
+    border-color: transparent;
+    border-style: none;
+    height: 1rem;
+}
+
+button {
+    border-style: none;
+}
+
+.Menu {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.footer {
+    display: flex;
+    justify-content:space-between;
+    align-items: baseline;
+    width: 100vw;
+}
+
+@media only screen and (min-width:300px) and (max-width:690px) {
+    .twoMenu {
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+    }
+
+
+}
+
+@keyframes Change-Color {
+    from {background-color: blue;}
+    to { background-color: red;}
+}
+
+
+@keyframes move-H2 {
+    from { top: 0px; bottom: 200px;}
+    to { 
+        top:200px;
+        bottom: 200px;
+    }
+}
+ 
+
+
+
+
+
+
