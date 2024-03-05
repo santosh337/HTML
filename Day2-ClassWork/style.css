@@ -1,0 +1,13 @@
+
+body {
+    width: 50%;
+    height: 100%;
+    margin: 0px 300px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.header {
+    text-align: center;
+}
